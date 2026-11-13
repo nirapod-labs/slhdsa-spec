@@ -1,0 +1,5 @@
+*.eco
+.check/
+*.why3session
+why3session.xml
+why3shapes.gz

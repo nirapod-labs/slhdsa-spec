@@ -1,0 +1,14 @@
+[general]
+timeout = 10
+
+provers = Z3@4.16
+
+rdirs = theories
+idirs = validation
+
+idirs = vendor/nirapod-sha2/proofs/spec
+idirs = Jasmin:vendor/jasmin/eclib
+idirs = JazzEC:vendor/formosa-libjade/proofs/arrays
+idirs = vendor/formosa-libjade/proofs/core/eclib
+rdirs = CryptoSpecs:vendor/formosa-libjade/proofs/fips202/spec
+rdirs = vendor/formosa-libjade/proofs/fips202/spec

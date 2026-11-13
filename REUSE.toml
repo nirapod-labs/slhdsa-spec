@@ -1,0 +1,23 @@
+version = 1
+
+[[annotations]]
+path = ["LICENSE", "AUTHORS", "CHANGELOG.md", "CONTRIBUTING.md", "CITATION.cff", ".gitignore", "easycrypt.project", "examples/downstream/easycrypt.project", "vendor/SHA256SUMS"]
+SPDX-FileCopyrightText = "2026 H.M. Yousuf and Rifat Ahmed"
+SPDX-License-Identifier = "CC0-1.0 OR Apache-2.0"
+
+[[annotations]]
+path = ["vendor/jasmin/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "The Jasmin authors; see vendor/jasmin/LICENSE"
+SPDX-License-Identifier = "MIT"
+
+[[annotations]]
+path = ["vendor/formosa-libjade/**"]
+precedence = "override"
+SPDX-FileCopyrightText = "Formosa-Crypto"
+SPDX-License-Identifier = "CC0-1.0 OR Apache-2.0"
+
+[[annotations]]
+path = ["vendor/nirapod-sha2/LICENSE"]
+SPDX-FileCopyrightText = "nirapod-sha2 contributors"
+SPDX-License-Identifier = "Apache-2.0"
